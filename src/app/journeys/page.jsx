@@ -1,5 +1,8 @@
 "use client";
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
+"use client";
+
+import { Suspense } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -9,8 +12,8 @@ import { ArrowLeft } from "lucide-react";
 import { featuredJourneys } from "@/data/journeys";
 import { bestTreks } from "@/data/bestTreks";
 
-export default function JourneysPage() {
-  const router = useRouter();
+function JourneysContent() {
+    const router = useRouter();
   const searchParams = useSearchParams();
 
   // 👉 URL se category uthao
