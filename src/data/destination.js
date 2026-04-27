@@ -1,0 +1,48 @@
+export const destinations = [
+  {
+    title: "Jammu & Kashmir",
+    slug: "jammu-kashmir",
+    packages: 18,
+    price: "₹20,500",
+    image: "/destinations/kashmir.jpg",
+    bestTime: "Mar – Oct",
+    type: "Mountains",
+  },
+  {
+    title: "Sikkim",
+    slug: "sikkim",
+    packages: 20,
+    price: "₹13,500",
+    image: "/destinations/sikkim.jpg",
+    bestTime: "Mar – Jun, Sept – Nov",
+    type: "Hills & Culture",
+  },
+  {
+    title: "Andaman & Nicobar",
+    slug: "andaman-nicobar",
+    packages: 7,
+    price: "₹15,600",
+    image: "/destinations/andaman.jpg",
+    bestTime: "Oct – May",
+    type: "Beach",
+  },
+  {
+    title: "Himachal Pradesh",
+    slug: "himachal-pradesh",
+    packages: 14,
+    price: "₹8,800",
+    image: "/destinations/himachal.jpg",
+    bestTime: "All Year",
+    type: "Mountains",
+  },
+  {
+    title: "Rajasthan",
+    slug: "rajasthan",
+    packages: 22,
+    price: "₹9,500",
+    image: "/destinations/rajasthan.jpg",
+     bestTime: "Oct – Mar",
+    type: "Heritage",
+  
+  },
+];
